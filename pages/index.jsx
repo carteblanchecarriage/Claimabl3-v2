@@ -125,7 +125,7 @@ if (key1) {
     }
   };
 
-  ////////////////////////
+
   const copyToClipboard = () => {
     console.log("copy")
     navigator.clipboard.writeText(`${muralLocation.lat}, ${muralLocation.lng}`)
